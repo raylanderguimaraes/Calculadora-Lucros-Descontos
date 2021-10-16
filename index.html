@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo Valor</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora de descontos</h1>
+
+        <input id="preco" name="preco" type="number" placeholder="Preço cheio">
+        <input id="descontoInicio" name="descontoInicio" type="number" placeholder="desconto %">
+        <input id="descontoBanco" name="descontoBanco" type="number" placeholder="Desconto do banco em R$">
+        <input id="custo" name="custo" type="number" placeholder="Custo da peça">
+        <button onclick="calcular()">Calcular</button>
+
+        <h1>Resultados</h1>
+        <div id="resultado">
+
+
+        </div>
+
+
+    </div>
+
+    <script src="./script/script.js"></script>
+
+</body>
+
+</html>
