@@ -29,3 +29,14 @@ input {
 
 }
 
+footer {
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    color:aliceblue;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
